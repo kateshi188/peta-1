@@ -1,0 +1,65 @@
+.faculty-staff {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #5c1f1f;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px black;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  color: gold;
+  margin-bottom: 8px;
+}
+
+.section-header p {
+  font-size: 1rem;
+  color: white;
+}
+
+.staff {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.staff-card {
+  background: #5c1f1f;
+  border-radius: 8px;
+  padding: 24px 16px;
+  text-align: center;
+  box-shadow: 3px 3px 15px black;
+  width: 220px;
+}
+
+.staff-card h3 {
+  font-size: 1.1rem;
+  color: gold;
+  margin-bottom: 6px;
+}
+
+.staff-role {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.staff-subject {
+  font-size: 0.85rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .staff-card {
+    width: 100%;
+  }
+}

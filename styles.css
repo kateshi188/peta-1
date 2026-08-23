@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e7dbdb;
+}
+.font {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  font-size: 15px;
+}
+.fheader1 {
+  color: white;
+  line-height: 1em;
+  padding-top: 20px;
+  padding-left: 45%; /* changed*/
+  white-space: nowrap;
+  font-size: 170%;
+}
+.headerflex,
+.footer {
+  display: flex;
+  flex-wrap: wrap; /* changed*/
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Nav Bar */
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.outer-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px 0px 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.outer-ul li {
+  display: inline-block;
+  position: relative;
+  padding: 5px 10px 5px 10px;
+  z-index: 100;
+  color: white;
+}
+.outer-ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+.outer-ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.outer-ul li .inner-ul a {
+  display: block;
+  padding: 10px 0px 10px 0px; /* top right bottom left */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: left;
+}
+.outer-ul li .inner-ul {
+  display: none;
+  position: absolute;
+  background-color: rgb(233, 233, 233);
+  min-width: 150px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+.outer-ul li:hover .inner-ul {
+  display: block;
+}
+.outer-ul li .inner-ul li {
+  display: block;
+}
+.outer-ul li .inner-ul li:hover {
+  background-color: rgba(201, 201, 201, 0.6);
+}
+
+.fheader2 {
+  color: white;
+  line-height: 0.5em;
+  padding-left: 45%; /* changed*/
+  white-space: nowrap;
+  font-size: 130%;
+}
+header {
+  padding: 1px 20px 20px 20px; /* top right bottom left */
+  min-height: 110px;
+  background-image: linear-gradient(to right, #5c1f1f, #7a2e1d);
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  max-width: 45%; /* changed*/
+  max-height: 95%;
+  margin-right: 20px;
+  border-radius: 99%;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+
+/* footer */
+footer {
+  padding: 1px 20px 20px 20px; /* top right bottom left */
+  background-image: linear-gradient(to right, #5c1f1f, #7a2e1d);
+  clear: both;
+}
+.footer {
+  line-height: 1em;
+  padding-top: 20px;
+}
+.footer-cr {
+  margin: 0px 10% 0px 0px; /* top right bottom left */
+  a {
+    text-decoration: none;
+  }
+}
+.ilink {
+  width: 30px;
+  height: 30px;
+}
+.insta {
+  width: 30px;
+  height: 27px;
+  padding-bottom: 2px;
+}
+.ilink:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}

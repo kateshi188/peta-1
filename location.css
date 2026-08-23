@@ -1,0 +1,10 @@
+.mainmap p {
+  font-size: 25px;
+}
+.mainmap {
+  position: relative;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  margin: 4% 10%;
+}

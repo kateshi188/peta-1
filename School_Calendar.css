@@ -1,0 +1,58 @@
+.scpage {
+  padding: 5% 5%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #5c1f1f;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px black;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  color: gold;
+  margin-bottom: 8px;
+}
+
+.section-header p {
+  font-size: 1rem;
+  color: white;
+}
+
+.term-block {
+  margin-bottom: 50px;
+}
+
+.term-block h3 {
+  font-size: 1.4rem;
+  color: #5c1f1f;
+  border-bottom: 2px solid #5c1f1f;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.calendar-table {
+  width: 100%;
+  background-color: #faf5f5;
+  border: black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px black;
+}
+
+.calendar-table th {
+  background: #5c1f1f;
+  color: gold;
+  text-align: left;
+  padding: 2% 2%;
+  font-size: 0.95rem;
+}
+
+.calendar-table td {
+  padding: 2% 2%;
+  font-size: 0.9rem;
+}

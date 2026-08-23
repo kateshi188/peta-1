@@ -1,0 +1,28 @@
+.news-events {
+  line-height: 0.5em;
+  display: flex;
+  margin: 4% 10% 3% 10%; /* top right bottom left */
+}
+.events {
+  margin: 0px 0px 4% 4%; /* top right bottom left */
+}
+.news {
+  width: 30%;
+  height: 30%;
+  margin: 0px 0px 4% 1%; /* top right bottom left */
+  a {
+    text-decoration: none;
+  }
+}
+@media (max-width: 768px) {
+  .news {
+    width: 25%;
+    height: 30%;
+    margin: 0px 0px 4% 1%; /* top right bottom left */
+  }
+}
+.events img {
+  border: 5px solid #5c1f1f;
+  box-shadow: 3px 3px 15px black;
+  border-radius: 20px;
+}

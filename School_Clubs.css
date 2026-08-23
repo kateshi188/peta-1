@@ -1,0 +1,72 @@
+/* CLUBS*/
+.head-club {
+  padding: 2% 10%;
+  font-size: 2.5vw;
+  align-content: center;
+  text-align: center;
+  background-color: #5c1f1f;
+  color: gold;
+}
+.box-container {
+  position: relative;
+  margin: 3% 1% 3% 1%;
+  padding: 20px;
+}
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.box_row {
+  width: 25%;
+  height: 30%;
+  box-sizing: border-box;
+  border: 5px solid #5c1f1f;
+  border-bottom: 8px solid #5c1f1f;
+  border-radius: 15px;
+  box-shadow:
+    3px 3px 15px black,
+    -3px -3px 15px black;
+}
+.club-gallery {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.links {
+  text-align: center;
+}
+.links a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.links h1 {
+  font-size: 25px;
+}
+/* CLUBS SCHEDULE*/
+
+table {
+  border: 3px solid gray;
+  justify-self: center;
+  margin: 5%;
+  width: 35%;
+  background-image: linear-gradient(to top, skyblue, darkgray);
+}
+#clubeschedul tr,
+th,
+td {
+  padding: 3% 2%;
+  font-size: 90%;
+}
